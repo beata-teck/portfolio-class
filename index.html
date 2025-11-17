@@ -1,58 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beata's portfolio</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beata | Frontend Developer</title>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-      <header class="header">
-      <div class="logo">
-        <a href="/">MyPortfolio</a>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="profile-avatar"></div>
+      <h1>Hi, I'm <span>Beata</span></h1>
+      <h2>Frontend Developer & Web Creator</h2>
+      <div class="intro-long">
+        <p>I love crafting seamless and visually appealing web experiences. My focus is on combining beauty with performance using modern tools and my own creative vision.</p>
+        <div class="quick-stats">
+          <div><span>5+</span> Projects</div>
+          <div><span>5</span> months Experience</div>
+          <div><span>∞</span> Passion</div>
+        </div>
       </div>
+    </section>
+  </header>
+  
+  <main>
+    <section id="about" class="card glass">
+      <h3>About Me</h3>
+      <p>I’m a frontend developer specializing in delivering dynamic user interfaces and delightful user experiences. I have a strong foundation in HTML, CSS, and JavaScript alongside frameworks like React and Tailwind CSS. I believe in continuous learning and always pushing my creative boundaries.</p>
+      <ul>
+        <li>Based in Addis Ababa</li>
+        <li>Favourite Tools: VSCode, Figma, Chrome DevTools</li>
+        <li>Interests: UI/UX, accessibility, web animations, code golf</li>
+        <li>Outside coding:  I really like reading books, listening to music in language i don't understand and watching movies</li>
+      </ul>
+    </section>
+    
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        
+        <div class="project-card glass">
+          <h4>Task Manager (React)</h4>
+          <p>A modern React task manager. This project uses hooks, local storage, and elegant UI components.</p>
+          <video controls width="100%" poster="Image/taskmanager.png">
+            <source src="Image/Task Manager.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> React, CSS</p>
+            <p><strong>Features:</strong> Add, delete, complete tasks; persistent storage; responsive UI.</p>
+          </div>
+        </div>
+        <div class="projects-grid">
+        <div class="project-card glass">
+          <h4>Lunara Studio Web</h4>
+          <p>A visually stunning website for Lunara Studio, showcasing their portfolio and services.</p>
+          <video controls width="100%" poster="Image/lunarastudio.png">
+            <source src="Image/LUNAra.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
+          </div>
+        </div>
+        <div class="projects-grid">
+           <div class="project-card glass">
+          <h4>pomodoro web app</h4>
+          <p>A productivity timer that helps users work in focused intervals, with a clear countdown, session tracking, and a sleek, minimalist interface</p>
+          <video controls width="100%" poster="Image/pomodoro.png">
+            <source src="Image/pomodoro new.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
+          </div>
+           </div>
+           <div class="projects-grid">
+           <div class="project-card glass">
+          <h4>Todo list web app</h4>
+          <p>A simple yet effective web app for organizing daily tasks, featuring intuitive controls and clean, responsive design using HTML, CSS, and JavaScript.</p>
+          <video controls width="100%" poster="Image/Todo list.png">
+            <source src="Image/Todo List.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
+          </div>
+        </div>
+        <div class="projects-grid">
+           <div class="project-card glass">
+          <h4>What i love</h4>
+          <p>A personal site sharing the things I love, with a dedicated section where I write about my passion for books and reading.</p>
+          <video controls width="100%" poster="Image/what i luv.png">
+            <source src="Image/Recording 2025-09-03 190534.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> HTML, CSS</p>
+            <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card glass">
+          <h4>Tic Tac Toe </h4>
+          <p>A classic two-player game built with HTML, CSS, and JavaScript, offering a clean interface, instant win detection, and interactive gameplay.</p>
+          <video controls width="100%" poster="Image/tic tac toe.png">
+            <source src="Image/Tic Tac Toe.mp4" type="video/mp4">
+          </video>
+          <div class="proj-extra">
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
+          </div>
+          </div>
 
-      <nav class="nav">
-        <ul>
-          <li>
-         <a href="/portfolio-class/index.html">Home</a>
-          </li>
-          <li>
-            <a href="/portfolio-class/about.html">About</a>
-          </li>
-          <li>
-            <a href="/portfolio-class/project.html">Project</a>
-          </li>
-          <li>
-            <a href="/portfolio-class/contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
- <section class="Home">
-  <h1>Hi, I’m <span class="highlight">Beata</span></h1>
-  <p>
-    An aspiring software developer passionate about building clean, user‑friendly web experiences.  
-    I combine technical skills with creativity to craft solutions that feel professional yet approachable.
-  </p>
-  <p>
-    Currently focused on front‑end development with HTML, CSS, and JavaScript, while continuously learning modern frameworks.
-  </p>
-  <a href="/portfolio-class/project.html" class="btn">View My Work</a>
-  <a href="/portfolio-class/contact.html" class="btn">Let’s Connect</a>
-</section>
-      <footer class="footer">
-      <p>© 2025 Beata. All rights reserved.</p>
-      
-      <div class="footer-links">
-        <a href="https://github.com/beata-teck" target="_blank" rel="noreferrer">
-          GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/beata-tefera-kebede" target="_blank" rel="noreferrer">
-          LinkedIn
-        </a>
-        <a href="mailto:batatefera7@gmail.com">Email</a>
+        
       </div>
-    </footer>
+    </section>
+    
+    <section id="skills" class="card glass">
+      <h3>Skills & Featured Projects</h3>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Tailwind CSS</li>
+        <li class="project-feature">Portfolio Website</li>
+        <li class="project-feature">Task Manager (React)</li>
+        <li class="project-feature">Lunara Studio Web</li>
+        <li class="project-feature">What I Luv Project</li>
+        <li class="project-feature">Rock Paper Scissors</li>
+      </ul>
+    </section>
+    
+    <section id="contact" class="card glass">
+      <h3>Contact Me</h3>
+      <form autocomplete="off">
+        <div class="form-group">
+          <input type="text" name="fname" placeholder="First Name" required>
+          <input type="text" name="lname" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+          <input type="number" name="age" placeholder="Age" min="1" max="120">
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" rows="5" placeholder="Enter your message..." required></textarea>
+        <button class="cta-btn" type="submit">Send Message</button>
+      </form>
+    </section>
+    
+  </main>
+  
+  <footer>
+    <p>© 2025 Beata. Crafted with HTML & CSS only.</p>
+  </footer>
 </body>
 </html>
+
