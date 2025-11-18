@@ -7,31 +7,35 @@
   <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-   <section class="hero" id="home">
- <img src="Image/avatar.jpg" alt="Beata's profile avatar" class="profile-avatar">
-  <h1>Hi, I'm <span class="hero-name">Beata</span></h1>
-  <h2>Frontend Developer & Web Creator</h2>
-  <div class="intro-long">
-    <p>I love crafting seamless and visually appealing web experiences. My focus is on combining beauty with performance using modern tools and my own creative vision.</p>
-    <div class="quick-stats">
-      <div><span>10+</span> Projects</div>
-      <div><span>5+</span> months Experience</div>
-      <div><span>∞</span> Passion</div>
-    </div>
-  </div>
-</section>
+ <header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  </header>
+<main>
+  <section class="hero" id="home">
+    <img src="Image/avatar.jpg" alt="Beata's profile avatar" class="profile-avatar">
+    <h1>Hi, I'm <span class="hero-name">Beata</span></h1>
+    <h2>Frontend Developer & Web Creator</h2>
+    <div class="intro-long">
+      <p>I love crafting seamless and visually appealing web experiences. My focus is on combining beauty with performance using modern tools and my own creative vision.</p>
+      <div class="quick-stats">
+        <div><span>10+</span> Projects</div>
+        <div><span>5+</span> months Experience</div>
+        <div><span>∞</span> Passion</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
   
   <main>
     <section id="about" class="card glass">
@@ -44,11 +48,15 @@
         <li>Outside coding:  I really like reading books, listening to music in language i don't understand and watching movies</li>
       </ul>
     </section>
-    
-   <section id="projects">
+  <section id="projects">
   <h3>Projects</h3>
   <div class="projects-grid">
+    <!-- Project 1 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/react.png" alt="React" title="React">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>Task Manager (React)</h4>
       <p>A modern React task manager. This project uses hooks, local storage, and elegant UI components.</p>
       <video controls width="100%" poster="Image/taskmanager.png">
@@ -58,8 +66,17 @@
         <p><strong>Stack:</strong> React, CSS</p>
         <p><strong>Features:</strong> Add, delete, complete tasks; persistent storage; responsive UI.</p>
       </div>
+      <div class="project-links">
+        <a href="https://task-manager-qohl.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
+
+    <!-- Project 2 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/html.png" alt="HTML" title="HTML">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>Lunara Studio Web</h4>
       <p>A visually stunning website for Lunara Studio, showcasing their portfolio and services.</p>
       <video controls width="100%" poster="Image/lunarastudio.png">
@@ -69,8 +86,17 @@
         <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
         <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
       </div>
+      <div class="project-links">
+        <a href="https://lunara-studios.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
+
+    <!-- Project 3 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/html.png" alt="HTML" title="HTML">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>Pomodoro Web App</h4>
       <p>A productivity timer that helps users work in focused intervals, with a clear countdown, session tracking, and a sleek, minimalist interface</p>
       <video controls width="100%" poster="Image/pomodoro.png">
@@ -80,8 +106,17 @@
         <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
         <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
       </div>
+      <div class="project-links">
+        <a href="https://promodoro-app-five.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
+
+    <!-- Project 4 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/html.png" alt="HTML" title="HTML">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>Todo List Web App</h4>
       <p>A simple yet effective web app for organizing daily tasks, featuring intuitive controls and clean, responsive design using HTML, CSS, and JavaScript.</p>
       <video controls width="100%" poster="Image/Todo list.png">
@@ -91,8 +126,17 @@
         <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
         <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
       </div>
+      <div class="project-links">
+        <a href="https://todo-list-project-gamma-dusky.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
+
+    <!-- Project 5 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/html.png" alt="HTML" title="HTML">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>What I Love</h4>
       <p>A personal site sharing the things I love, with a dedicated section where I write about my passion for books and reading.</p>
       <video controls width="100%" poster="Image/what i luv.png">
@@ -102,8 +146,17 @@
         <p><strong>Stack:</strong> HTML, CSS</p>
         <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
       </div>
+      <div class="project-links">
+        <a href="https://what-i-love-eight.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
+
+    <!-- Project 6 -->
     <div class="project-card glass">
+      <div class="project-tech">
+        <img src="Image/html.png" alt="HTML" title="HTML">
+        <img src="Image/css.png" alt="CSS" title="CSS">
+      </div>
       <h4>Tic Tac Toe</h4>
       <p>A classic two-player game built with HTML, CSS, and JavaScript, offering a clean interface, instant win detection, and interactive gameplay.</p>
       <video controls width="100%" poster="Image/tic tac toe.png">
@@ -113,26 +166,53 @@
         <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
         <p><strong>Features:</strong> Responsive design, interactive elements, smooth animations.</p>
       </div>
+      <div class="project-links">
+        <a href="https://tic-tac-toe-six-kappa-16.vercel.app/" target="_blank" class="proj-btn">View Demo</a>
+      </div>
     </div>
   </div>
 </section>
 
+
     
-    <section id="skills" class="card glass">
-      <h3>Skills & Featured Projects</h3>
-      <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Tailwind CSS</li>
-        <li class="project-feature">Portfolio Website</li>
-        <li class="project-feature">Task Manager (React)</li>
-        <li class="project-feature">Lunara Studio Web</li>
-        <li class="project-feature">What I Luv Project</li>
-        <li class="project-feature">Rock Paper Scissors</li>
-      </ul>
-    </section>
+    <section id="skills">
+  <h3>Skills</h3>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="Image/html.png" alt="HTML" title="HTML">
+      <span>HTML</span>
+    </div>
+    <div class="skill-card">
+      <img src="Image/css.png" alt="CSS" title="CSS">
+      <span>CSS</span>
+    </div>
+    <div class="skill-card">
+      <img src="Image/js.png" alt="JavaScript" title="JavaScript">
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-card">
+      <img src="Image/react.png" alt="React" title="React">
+      <span>React</span>
+    </div>
+    <div class="skill-card">
+      <img src="Image/tailwind.png" alt="tailwind" title="Tailwind CSS">
+      <span>Tailwind CSS</span>
+    </div>
+     <div class="skill-card">
+      <img src="Image/java.png" alt="java" title="Java">
+      <span>Java</span>
+    </div>
+     <div class="skill-card">
+      <img src="Image/C++.png" alt="C++" title="C++">
+      <span>C++</span>
+    </div>
+     <div class="skill-card">
+      <img src="Image/github.png" alt="GitHub" title="GitHub">
+      <span>GitHub</span>
+
+  </div>
+</section>
+
     
     <section id="contact" class="card glass">
       <h3>Contact Me</h3>
