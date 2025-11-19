@@ -38,16 +38,27 @@
 
   
   <main>
-    <section id="about" class="card glass">
-      <h3>About Me</h3>
-      <p>I’m a frontend developer specializing in delivering dynamic user interfaces and delightful user experiences. I have a strong foundation in HTML, CSS, and JavaScript alongside frameworks like React and Tailwind CSS. I believe in continuous learning and always pushing my creative boundaries.</p>
+    <section id="about">
+  <h3>About Me</h3>
+  <div class="about-container no-photo">
+    <div class="about-highlight">
+      <blockquote>
+        “Turning coffee and ideas into beautiful code.”
+      </blockquote>
       <ul>
-        <li>Based in Addis Ababa</li>
-        <li>Favourite Tools: VSCode, Figma, Chrome DevTools</li>
-        <li>Interests: UI/UX, accessibility, web animations, code golf</li>
-        <li>Outside coding:  I really like reading books, listening to music in language i don't understand and watching movies</li>
+        <li>Frontend enthusiast</li>
+        <li>Bookworm & lifelong learner</li>
+        <li>Passionate about stunning UI</li>
       </ul>
-    </section>
+    </div>
+    <div class="about-content">
+      <p>
+        Hi! I'm Beata. I craft responsive, visually engaging web experiences with a love for intuitive UI and clean code. Whether it’s building a productivity app or designing a portfolio site, I thrive on transforming creative ideas into interactive reality.
+      </p>
+    </div>
+  </div>
+</section>
+
   <section id="projects">
   <h3>Projects</h3>
   <div class="projects-grid">
@@ -214,23 +225,23 @@
 </section>
 
     
-    <section id="contact" class="card glass">
-      <h3>Contact Me</h3>
-      <form autocomplete="off">
-        <div class="form-group">
-          <input type="text" name="fname" placeholder="First Name" required>
-          <input type="text" name="lname" placeholder="Last Name" required>
-        </div>
-        <div class="form-group">
-          <input type="number" name="age" placeholder="Age" min="1" max="120">
-        </div>
-        <div class="form-group">
-          <input type="email" name="email" placeholder="Your Email" required>
-        </div>
-        <textarea name="message" rows="5" placeholder="Enter your message..." required></textarea>
-        <button class="cta-btn" type="submit">Send Message</button>
-      </form>
-    </section>
+    <section id="contact">
+  <h3>Contact</h3>
+  <div class="contact-container">
+    <form class="contact-form" autocomplete="off">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+    <div class="contact-social">
+      <a href="mailto:batatefera7@gmail.com" target="_blank" title="Email"><img src="Image/email.png" alt="Email"></a>
+      <a href="https://github.com/beata-teck" target="_blank" title="GitHub"><img src="Image/github.png" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/beata-tefera-kebede-b23717350/" target="_blank" title="LinkedIn"><img src="Image/linkedin.png" alt="LinkedIn"></a>
+      
+  </div>
+</section>
+
     
   </main>
   
